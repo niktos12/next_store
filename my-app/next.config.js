@@ -1,10 +1,10 @@
 module.exports = {
     images: {
-      domains: ['fakestoreapi.com'],
+      domains: ['avatars.mds.yandex.net', "main-cdn.sbermegamarket.ru"],
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'i.imgur.com',
+          hostname: 'main-cdn.sbermegamarket.ru',
           port: '',
           pathname: '/**',
         }
