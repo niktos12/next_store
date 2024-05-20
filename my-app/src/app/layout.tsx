@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning={true}>
-      <body className="mt-3 mx-40">
+      <body className="mt-3">
         <Header/>
         <main>{children}</main>
       </body>
